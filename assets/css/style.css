@@ -53,21 +53,20 @@
     -webkit-overflow-scrolling: touch;
   }
 
-.navbar-brand { /*image and name on navbar */
-  color: aqua  
+/* .navbar-brand { /*image and name on navbar */
+  /* color: aqua  
 }
 .nav-img {
   width: 60px;
-  padding-right: 10px;;
+  padding-right: 10px;; */
   /* padding: var(--pxVar); */
-}
+/* } */ */
 p span {
   color: aqua
 }
 .btn {
   color: black;
   background-color: aqua;
-  
 }
 .container-main {
   margin-top: 20px;
@@ -93,6 +92,7 @@ p span {
   background-size: cover;
 }
 
+
 .card-img-2 {
   background-image: url(../images/git-commands.PNG);
   background-size: cover;
@@ -117,3 +117,4 @@ p span {
   background-image: url(../images/stackedNested-divs.PNG);
   background-size: cover;
 }
+

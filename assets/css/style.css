@@ -1,7 +1,3 @@
-/* body {
-  background-color: antiquewhite;
-} */
-
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
@@ -53,17 +49,6 @@
     -webkit-overflow-scrolling: touch;
   }
 
-/* .navbar-brand { /*image and name on navbar */
-  /* color: aqua  
-}
-.nav-img {
-  width: 60px;
-  padding-right: 10px;; */
-  /* padding: var(--pxVar); */
-/* } */ */
-p span {
-  color: aqua
-}
 .btn {
   color: black;
   background-color: aqua;
@@ -71,28 +56,23 @@ p span {
 .container-main {
   margin-top: 20px;
   background-image: url(../images/StockSnap_7WOLRE1IXP.jpg);
-
   background-position: center;
   background-size: cover;
   height: 375px;
-  border-radius: 40px;
- 
 }
+
 .lead-text {
   color:white;
 }
+
 .secondary-text {
   color:antiquewhite
 }
-/* .card {
-  background-color: antiquewhite;
-} */
 
 .card-img-1 {
   background-image: url(../images/horiseon.PNG);
   background-size: cover;
 }
-
 
 .card-img-2 {
   background-image: url(../images/git-commands.PNG);

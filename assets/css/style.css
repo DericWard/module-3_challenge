@@ -71,11 +71,12 @@ p span {
 .container-main {
   margin-top: 20px;
   background-image: url(../images/StockSnap_7WOLRE1IXP.jpg);
-  /* background-color: aqua; */
+
   background-position: center;
   background-size: cover;
   height: 375px;
-  /* width: auto; */
+  border-radius: 40px;
+ 
 }
 .lead-text {
   color:white;

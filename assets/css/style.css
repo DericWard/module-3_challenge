@@ -61,16 +61,13 @@
   padding-right: 10px;;
   /* padding: var(--pxVar); */
 }
-
 p span {
   color: aqua
 }
-
 .btn {
   color: black;
   background-color: aqua;
 }
-
 .container-main {
   margin-top: 20px;
   background-image: url(../images/StockSnap_7WOLRE1IXP.jpg);
@@ -78,17 +75,44 @@ p span {
   background-position: center;
   background-size: cover;
   height: 375px;
-  width: auto;
-
+  /* width: auto; */
 }
-
 .lead-text {
   color:white;
 }
 .secondary-text {
   color:antiquewhite
 }
-
-.card {
+/* .card {
   background-color: antiquewhite;
+} */
+
+.card-img-1 {
+  background-image: url(../images/horiseon.PNG);
+  background-size: cover;
+}
+
+.card-img-2 {
+  background-image: url(../images/git-commands.PNG);
+  background-size: cover;
+}
+
+.card-img-3 {
+  background-image: url(../images/basic-bio.PNG);
+  background-size:cover
+}
+
+.card-img-4 {
+  background-image: url(../images/prework-study-guide.PNG);
+  background-size: cover;
+}
+
+.card-img-5 {
+  background-image: url(../images/flexbox-testing.PNG);
+  background-size: cover;
+}
+
+.card-img-6 {
+  background-image: url(../images/stackedNested-divs.PNG);
+  background-size: cover;
 }

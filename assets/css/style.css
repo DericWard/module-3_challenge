@@ -40,22 +40,22 @@
 }
 
 .card-img-2 {
-  background-image: url(../images/jakes-screenshot.PNG);
+  background-image: url(../images/css-snippets-screenshot.PNG);
   background-size: var(--screenVar);
 }
 
 .card-img-3 {
-  background-image: url(../images/basic-bio.PNG);
+  background-image: url(../images/jakes-screenshot.PNG);
   background-size: var(--screenVar);
 }
 
 .card-img-4 {
-  background-image: url(../images/prework-study-guide.PNG);
+  background-image: url(../images/basic-bio.PNG);
   background-size: var(--screenVar);
 }
 
 .card-img-5 {
-  background-image: url(../images/flexbox-testing.PNG);
+  background-image: url(../images/prework-study-guide.PNG);
   background-size: var(--screenVar);
 }
 

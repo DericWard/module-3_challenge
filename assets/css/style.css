@@ -1,3 +1,7 @@
+:root {
+  --screenVar : cover;
+}
+
 .btn {
   color: black;
   background-color: aqua;
@@ -7,9 +11,14 @@
   margin-top: 20px;
   background-image: url(../images/StockSnap_7WOLRE1IXP.jpg);
   background-position: center;
-  background-size: cover;
-  height: 375px;
+  background-size: var(--screenVar);
+  height: 475px;
+  border-radius: 5px;
 }
+
+.container-1 {
+  margin-bottom: 15px;
+ }
 
 .lead-text {
   color:white;
@@ -19,33 +28,49 @@
   color:antiquewhite
 }
 
-.card-img-1 {
+.card-img-0 {
   background-image: url(../images/horiseon.PNG);
-  background-size: cover;
+  background-size: var(--screenVar);
+  height: 350px;
+}
+
+.card-img-1 {
+  background-image: url(../images/portfolio-1.PNG);
+  background-size: var(--screenVar);
 }
 
 .card-img-2 {
   background-image: url(../images/git-commands.PNG);
-  background-size: cover;
+  background-size: var(--screenVar);
 }
 
 .card-img-3 {
   background-image: url(../images/basic-bio.PNG);
-  background-size:cover
+  background-size: var(--screenVar);
 }
 
 .card-img-4 {
   background-image: url(../images/prework-study-guide.PNG);
-  background-size: cover;
+  background-size: var(--screenVar);
 }
 
 .card-img-5 {
   background-image: url(../images/flexbox-testing.PNG);
-  background-size: cover;
+  background-size: var(--screenVar);
 }
 
 .card-img-6 {
   background-image: url(../images/stackedNested-divs.PNG);
-  background-size: cover;
+  background-size: var(--screenVar);
 }
 
+@media screen and (max-width: 768px) {
+  .container-main {
+    margin-top: 0px;
+    height: 350px;
+    border-radius: 0px;
+  }
+  .card-img-0 {
+    height: 225px;
+  }
+}

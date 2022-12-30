@@ -50,17 +50,17 @@
 }
 
 .card-img-4 {
-  background-image: url(../images/basic-bio.PNG);
+  background-image: url(../images/css-selectors-screenshot.PNG);
   background-size: var(--screenVar);
 }
 
 .card-img-5 {
-  background-image: url(../images/prework-study-guide.PNG);
+  background-image: url(../images/basic-bio.PNG);
   background-size: var(--screenVar);
 }
 
 .card-img-6 {
-  background-image: url(../images/stackedNested-divs.PNG);
+  background-image: url(../images/prework-study-guide.PNG);
   background-size: var(--screenVar);
 }
 

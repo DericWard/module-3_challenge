@@ -69,10 +69,11 @@
   .card-img-0 {
     height: 225px;
   }
-  .offcanvas-body {
-    background-color: white;
-  }
   .dropdown-toggle {
+    color: white;
+  }
+  .offcanvas-header {
+    color: black;
     background-color: white;
   }
-}
+} 

@@ -1,6 +1,10 @@
 :root {
   --screenVar : cover;
 }
+.profile-image {
+  width: 40px;
+  margin-right: 10px;
+}
 .btn {
   color: black;
   background-color: aqua;

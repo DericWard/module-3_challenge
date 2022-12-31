@@ -6,9 +6,8 @@
   color: black;
   background-color: aqua;
 }
-
 .container-main {
-  margin-top: 20px;
+  margin-top: 80px;
   background-image: url(../images/StockSnap_7WOLRE1IXP.jpg);
   background-position: center;
   background-size: var(--screenVar);
@@ -33,13 +32,12 @@
   background-size: var(--screenVar);
   height: 350px;
 }
-
 .card-img-1 {
-  background-image: url(../images/portfolio-1.PNG);
+  background-image: url(../images/bootstrap-demo.PNG);
   background-size: var(--screenVar);
 }
 .card-img-2 {
-  background-image: url(../images/bootstrap-demo.PNG);
+  background-image: url(../images/portfolio-1.PNG);
   background-size: var(--screenVar);
 }
 .card-img-3 {
@@ -65,7 +63,7 @@
 
 @media screen and (max-width: 768px) {
   .container-main {
-    margin-top: 0px;
+    margin-top: 50px;
     height: 350px;
     border-radius: 0px;
   }

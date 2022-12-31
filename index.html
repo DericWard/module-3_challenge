@@ -3,26 +3,74 @@
 
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
   <meta name="generator" content="Hugo 0.108.0">
   <title>Deric Ward - Portfolio</title>
 
-  <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/album/">
-  <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+  <!-- <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/album/"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <link href="./assets/css/style.css" rel="stylesheet">
+  <link href="./assets/css/navbars-offcanvas.css" rel="stylesheet">
 </head>
 
 <body>
 
   <main>
 
+    <section>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" aria-label="Offcanvas navbar large">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Deric Ward</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
+            aria-controls="offcanvasNavbar2">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
+            aria-labelledby="offcanvasNavbar2Label">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Offcanvas</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Select Portfolio Project
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#horiseon" class="dropdown-item" href="#">Horiseon</a></li>
+                    <li><a href="#bootstrap" class="dropdown-item" href="#">Bootstrap</a></li>
+                    <li><a href="#portfolio" class="dropdown-item" href="#">Portfolio</a></li>
+                    <li><a href="#css-snippets" class="dropdown-item" href="#">CSS Snippets</a></li>
+                    <li><a href="#jakes-eatery" class="dropdown-item" href="#">Jake's Eatery</a></li>
+                    <li><a href="#css-selectors" class="dropdown-item" href="#">CSS Selectors</a></li>
+                    <li><a href="#basic-bio" class="dropdown-item" href="#">Basic Bio</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+
+
     <section class="py-5 text-center container container-main">
       <div class="row py-lg-5">
         <div class="col-lg-6 col-md-8 mx-auto">
           <h1 class="fw-light lead-text">Portfolio</h1>
-          <p class=" secondary-text">Welcome to Deric Ward's portfolio<br> Here you can find
+          <p class=" secondary-text">Welcome to Deric's portfolio<br> Here you can find
             <strong>live</strong> examples of
             Deric's recent web projects
           </p>
@@ -32,170 +80,172 @@
       </div>
     </section>
 
+    <section>
+      <div class="album py-5 bg-light">
 
-    <div class="album py-5 bg-light">
+        <div class="container container-1">
+          <div class="row">
 
-      <div class="container container-1">
-        <div class="row">
-
-          <div class="col">
-            <div class="card shadow-sm">
-              <svg class="bd-placeholder-img card-img-top card-img-0" width="100%" height="225"
-                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>Horiseon</title>
-              </svg>
-              <div class="card-body">
-                <p class="card-text">Assignment 1: Code refactoring of Horiseon's homepage</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <form>
-                      <button type="submit" formaction="https://dericward.github.io/module-1_challenge/"
-                        class="btn btn-sm btn-outline-secondary">View deployed project</button>
-                    </form>
+            <div class="col">
+              <div id="horiseon" class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top card-img-0" width="100%" height="225"
+                  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                  preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>Horiseon</title>
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">Assignment 1: Code refactoring of Horiseon's homepage</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <form>
+                        <button type="submit" formaction="https://dericward.github.io/module-1_challenge/"
+                          class="btn btn-sm btn-outline-secondary">View deployed project</button>
+                      </form>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
 
-      <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 
-          <div class="col">
-            <div class="card shadow-sm">
-              <svg class="bd-placeholder-img card-img-top card-img-1" width="100%" height="225"
-                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>Portfolio</title>
-              </svg>
-              <div class="card-body">
-                <p class="card-text">Assignment 2: Portfolio page using HTML and CSS</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <form>
-                      <button type="submit" formaction="https://dericward.github.io/module-2_challenge-/"
-                        class="btn btn-sm btn-outline-secondary">View deployed project</button>
-                    </form>
+
+            <div class="col">
+              <div id="bootstrap" class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top card-img-1" width="100%" height="225"
+                  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                  preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>Bootstrap-demo</title>
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">Bootstrap Jumbotron and bootstrap navbar demo</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <form>
+                        <button type="submit" formaction="https://dericward.github.io/bootstrap/"
+                          class="btn btn-sm btn-outline-secondary">View deployed project</button>
+                      </form>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="col">
-            <div class="card shadow-sm">
-              <svg class="bd-placeholder-img card-img-top card-img-2" width="100%" height="225"
-                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>Bootstrap-demo</title>
-              </svg>
-              <div class="card-body">
-                <p class="card-text">Bootstrap Jumbotron and bootstrap navbar demo</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <form>
-                      <button type="submit" formaction="https://dericward.github.io/bootstrap/"
-                        class="btn btn-sm btn-outline-secondary">View deployed project</button>
-                    </form>
+            <div class="col">
+              <div id="portfolio" class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top card-img-2" width="100%" height="225"
+                  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                  preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>Portfolio</title>
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">Assignment 2: Portfolio page using HTML and CSS</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <form>
+                        <button type="submit" formaction="https://dericward.github.io/module-2_challenge-/"
+                          class="btn btn-sm btn-outline-secondary">View deployed project</button>
+                      </form>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-            
-          <div class="col">
-            <div class="card shadow-sm">
-              <svg class="bd-placeholder-img card-img-top card-img-3" width="100%" height="225"
-                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>CSS-snippets</title>
-              </svg>
-              <div class="card-body">
-                <p class="card-text">Useful CSS snippets using glow effects, Flex, and Grid</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <form>
-                      <button type="submit" formaction="https://dericward.github.io/css-snippet-cheatsheet/"
-                        class="btn btn-sm btn-outline-secondary">View deployed project</button>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
 
-          <div class="col">
-            <div class="card shadow-sm">
-              <svg class="bd-placeholder-img card-img-top card-img-4" width="100%" height="225"
-                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>Jakes-eatery-homepage</title>
-              </svg>
-              <div class="card-body">
-                <p class="card-text">A simple homepage for Jake's Eatery</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <form>
-                      <button type="submit" formaction="https://dericward.github.io/jakes-eatery/"
-                        class="btn btn-sm btn-outline-secondary">View deployed project</button>
-                    </form>
+            <div class="col">
+              <div id="css-snippets" class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top card-img-3" width="100%" height="225"
+                  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                  preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>CSS-snippets</title>
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">CSS snippets using glow effects, Flex, and Grid</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <form>
+                        <button type="submit" formaction="https://dericward.github.io/css-snippet-cheatsheet/"
+                          class="btn btn-sm btn-outline-secondary">View deployed project</button>
+                      </form>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="col">
-            <div class="card shadow-sm">
-              <svg class="bd-placeholder-img card-img-top card-img-5" width="100%" height="225"
-                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>CSS-selectors</title>
-              </svg>
-              <div class="card-body">
-                <p class="card-text">Examples and example code for using CSS selectors</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <form>
-                      <button type="submit" formaction="https://dericward.github.io/css-selectors/"
-                        class="btn btn-sm btn-outline-secondary">View deployed project</button>
-                    </form>
+            <div class="col">
+              <div id="jakes-eatery" class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top card-img-4" width="100%" height="225"
+                  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                  preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>Jakes-eatery-homepage</title>
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">Simple homepage for Jake's Eatery</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <form>
+                        <button type="submit" formaction="https://dericward.github.io/jakes-eatery/"
+                          class="btn btn-sm btn-outline-secondary">View deployed project</button>
+                      </form>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="col">
-            <div class="card shadow-sm">
-              <svg class="bd-placeholder-img card-img-top card-img-6" width="100%" height="225"
-                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>Basic-bio</title>
-              </svg>
-              <div class="card-body">
-                <p class="card-text">A basic student bio page to replicate a given design</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <form>
-                      <button type="submit" formaction="https://dericward.github.io/bootcamp-homework-1/"
-                        class="btn btn-sm btn-outline-secondary">View deployed project</button>
-                    </form>
+            <div class="col">
+              <div id="css-selectors" class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top card-img-5" width="100%" height="225"
+                  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                  preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>CSS-selectors</title>
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">Example code for using CSS selectors</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <form>
+                        <button type="submit" formaction="https://dericward.github.io/css-selectors/"
+                          class="btn btn-sm btn-outline-secondary">View deployed project</button>
+                      </form>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
+
+            <div class="col">
+              <div id="basic-bio" class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top card-img-6" width="100%" height="225"
+                  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                  preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>Basic-bio</title>
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">Basic bio to a given design</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <form>
+                        <button type="submit" formaction="https://dericward.github.io/bootcamp-homework-1/"
+                          class="btn btn-sm btn-outline-secondary">View deployed project</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
 
         </div>
 
       </div>
-
-    </div>
+    </section>
 
   </main>
 
@@ -209,7 +259,9 @@
   </footer>
 
 
-  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
 
 
 </body>

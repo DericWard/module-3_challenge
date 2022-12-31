@@ -38,31 +38,30 @@
   background-image: url(../images/portfolio-1.PNG);
   background-size: var(--screenVar);
 }
-
 .card-img-2 {
+  background-image: url(../images/bootstrap-demo.PNG);
+  background-size: var(--screenVar);
+}
+.card-img-3 {
   background-image: url(../images/css-snippets-screenshot.PNG);
   background-size: var(--screenVar);
 }
 
-.card-img-3 {
+.card-img-4 {
   background-image: url(../images/jakes-screenshot.PNG);
   background-size: var(--screenVar);
 }
 
-.card-img-4 {
+.card-img-5 {
   background-image: url(../images/css-selectors-screenshot.PNG);
   background-size: var(--screenVar);
 }
 
-.card-img-5 {
+.card-img-6 {
   background-image: url(../images/basic-bio.PNG);
   background-size: var(--screenVar);
 }
 
-.card-img-6 {
-  background-image: url(../images/prework-study-guide.PNG);
-  background-size: var(--screenVar);
-}
 
 @media screen and (max-width: 768px) {
   .container-main {
